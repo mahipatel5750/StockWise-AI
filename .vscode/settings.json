@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\Mahi Patel\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "python.analysis.extraPaths": [
+    "C:\\Users\\Mahi Patel\\AppData\\Roaming\\Python\\Python312\\site-packages",
+    "C:\\Users\\Mahi Patel\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages"
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  }
+}

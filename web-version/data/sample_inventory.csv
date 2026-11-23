@@ -1,0 +1,17 @@
+id,name,category,currentStock,unitPrice,supplier,leadTime,safetyStock
+PRD-001,Sunscreen SPF 50,Personal Care,8,18.50,GlowCare Labs,5,5
+PRD-002,Wireless Bluetooth Earbuds,Electronics,0,49.99,Apex Tech Direct,7,10
+PRD-003,Organic Green Tea (100 bags),Groceries,45,12.00,NatureHarvest Organics,5,10
+PRD-004,USB-C Fast Charging Cable,Electronics,12,9.99,Apex Tech Direct,4,8
+PRD-005,Hydrating Facial Cleanser,Personal Care,6,22.00,GlowCare Labs,6,6
+PRD-006,Ceramic Coffee Mug Set,Home & Kitchen,0,24.50,UrbanComfort Goods,10,4
+PRD-007,Stainless Steel Water Bottle (1L),Home & Kitchen,60,19.99,EcoLiving Co.,7,12
+PRD-008,Ergonomic Memory Foam Pillow,Home & Kitchen,5,34.00,UrbanComfort Goods,8,4
+PRD-009,Smart Fitness Tracker,Electronics,35,59.99,Apex Tech Direct,10,8
+PRD-010,Lavender Essential Oil (30ml),Personal Care,50,14.50,NatureHarvest Organics,6,6
+PRD-011,Cotton Crewneck T-Shirt,Apparel,80,16.00,TrendWeave Apparel,7,15
+PRD-012,Noise-Cancelling Headphones,Electronics,25,129.99,Apex Tech Direct,12,5
+PRD-013,Bamboo Cutting Board Set,Home & Kitchen,40,27.50,EcoLiving Co.,5,6
+PRD-014,Vitamin C Serum (30ml),Personal Care,55,24.00,GlowCare Labs,5,8
+PRD-015,Portable Power Bank 20000mAh,Electronics,38,39.99,Apex Tech Direct,8,8
+PRD-016,Organic Wildflower Honey (500g),Groceries,70,11.50,NatureHarvest Organics,4,10

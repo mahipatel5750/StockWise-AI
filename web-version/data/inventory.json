@@ -1,0 +1,162 @@
+[
+  {
+    "id": "PRD-001",
+    "name": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "currentStock": 8,
+    "unitPrice": 18.5,
+    "supplier": "GlowCare Labs",
+    "leadTime": 5,
+    "safetyStock": 5
+  },
+  {
+    "id": "PRD-002",
+    "name": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "currentStock": 0,
+    "unitPrice": 49.99,
+    "supplier": "Apex Tech Direct",
+    "leadTime": 7,
+    "safetyStock": 10
+  },
+  {
+    "id": "PRD-003",
+    "name": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "currentStock": 45,
+    "unitPrice": 12.0,
+    "supplier": "NatureHarvest Organics",
+    "leadTime": 5,
+    "safetyStock": 10
+  },
+  {
+    "id": "PRD-004",
+    "name": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "currentStock": 12,
+    "unitPrice": 9.99,
+    "supplier": "Apex Tech Direct",
+    "leadTime": 4,
+    "safetyStock": 8
+  },
+  {
+    "id": "PRD-005",
+    "name": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "currentStock": 6,
+    "unitPrice": 22.0,
+    "supplier": "GlowCare Labs",
+    "leadTime": 6,
+    "safetyStock": 6
+  },
+  {
+    "id": "PRD-006",
+    "name": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "currentStock": 0,
+    "unitPrice": 24.5,
+    "supplier": "UrbanComfort Goods",
+    "leadTime": 10,
+    "safetyStock": 4
+  },
+  {
+    "id": "PRD-007",
+    "name": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "currentStock": 60,
+    "unitPrice": 19.99,
+    "supplier": "EcoLiving Co.",
+    "leadTime": 7,
+    "safetyStock": 12
+  },
+  {
+    "id": "PRD-008",
+    "name": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "currentStock": 5,
+    "unitPrice": 34.0,
+    "supplier": "UrbanComfort Goods",
+    "leadTime": 8,
+    "safetyStock": 4
+  },
+  {
+    "id": "PRD-009",
+    "name": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "currentStock": 35,
+    "unitPrice": 59.99,
+    "supplier": "Apex Tech Direct",
+    "leadTime": 10,
+    "safetyStock": 8
+  },
+  {
+    "id": "PRD-010",
+    "name": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "currentStock": 50,
+    "unitPrice": 14.5,
+    "supplier": "NatureHarvest Organics",
+    "leadTime": 6,
+    "safetyStock": 6
+  },
+  {
+    "id": "PRD-011",
+    "name": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "currentStock": 80,
+    "unitPrice": 16.0,
+    "supplier": "TrendWeave Apparel",
+    "leadTime": 7,
+    "safetyStock": 15
+  },
+  {
+    "id": "PRD-012",
+    "name": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "currentStock": 25,
+    "unitPrice": 129.99,
+    "supplier": "Apex Tech Direct",
+    "leadTime": 12,
+    "safetyStock": 5
+  },
+  {
+    "id": "PRD-013",
+    "name": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "currentStock": 40,
+    "unitPrice": 27.5,
+    "supplier": "EcoLiving Co.",
+    "leadTime": 5,
+    "safetyStock": 6
+  },
+  {
+    "id": "PRD-014",
+    "name": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "currentStock": 55,
+    "unitPrice": 24.0,
+    "supplier": "GlowCare Labs",
+    "leadTime": 5,
+    "safetyStock": 8
+  },
+  {
+    "id": "PRD-015",
+    "name": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "currentStock": 38,
+    "unitPrice": 39.99,
+    "supplier": "Apex Tech Direct",
+    "leadTime": 8,
+    "safetyStock": 8
+  },
+  {
+    "id": "PRD-016",
+    "name": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "currentStock": 70,
+    "unitPrice": 11.5,
+    "supplier": "NatureHarvest Organics",
+    "leadTime": 4,
+    "safetyStock": 10
+  }
+]

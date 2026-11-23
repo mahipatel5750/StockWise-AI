@@ -1,0 +1,11 @@
+transactionId,date,productId,productName,category,unitsSold,unitPrice,totalRevenue
+TXN-1001,2026-10-25,PRD-001,Sunscreen SPF 50,Personal Care,3,18.50,55.50
+TXN-1002,2026-10-25,PRD-002,Wireless Bluetooth Earbuds,Electronics,4,49.99,199.96
+TXN-1003,2026-10-25,PRD-003,Organic Green Tea (100 bags),Groceries,2,12.00,24.00
+TXN-1004,2026-10-25,PRD-004,USB-C Fast Charging Cable,Electronics,5,9.99,49.95
+TXN-1005,2026-10-26,PRD-001,Sunscreen SPF 50,Personal Care,3,18.50,55.50
+TXN-1006,2026-10-26,PRD-005,Hydrating Facial Cleanser,Personal Care,2,22.00,44.00
+TXN-1007,2026-10-26,PRD-007,Stainless Steel Water Bottle (1L),Home & Kitchen,3,19.99,59.97
+TXN-1008,2026-10-27,PRD-001,Sunscreen SPF 50,Personal Care,3,18.50,55.50
+TXN-1009,2026-10-27,PRD-011,Cotton Crewneck T-Shirt,Apparel,4,16.00,64.00
+TXN-1010,2026-10-28,PRD-001,Sunscreen SPF 50,Personal Care,3,18.50,55.50

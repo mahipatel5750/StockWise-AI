@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StockWise AI – Smarter Inventory. Better Business Decisions.</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Chart.js 4.4 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- SheetJS (xlsx) -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <!-- Premium Application Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Application Shell -->
+  <div class="app-container">
+    
+    <!-- =================================================================
+         3. PREMIUM SIDEBAR
+         ================================================================= -->
+    <aside class="sidebar" id="app-sidebar">
+      <!-- Top Brand Section -->
+      <div class="sidebar-header">
+        <div class="brand-wrapper" title="StockWise AI - Smarter Inventory. Better Business Decisions.">
+          <div class="brand-logo-icon">
+            <i data-lucide="boxes" style="width: 22px; height: 22px;"></i>
+          </div>
+          <div class="brand-text">
+            <h1>StockWise AI</h1>
+            <span class="brand-subtitle-badge">Retail Intelligence</span>
+          </div>
+        </div>
+        <button class="sidebar-collapse-btn" id="sidebar-collapse-btn" title="Toggle Desktop Sidebar">
+          <i data-lucide="chevron-left" id="collapse-icon"></i>
+        </button>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <a class="nav-link active" data-section="dashboard" title="Overview">
+          <i data-lucide="layout-dashboard"></i>
+          <span class="nav-label">Overview</span>
+        </a>
+        <a class="nav-link" data-section="inventory" title="Inventory Management">
+          <i data-lucide="package"></i>
+          <span class="nav-label">Inventory</span>
+        </a>
+        <a class="nav-link" data-section="sales" title="Sales Analytics">
+          <i data-lucide="trending-up"></i>
+          <span class="nav-label">Sales Analytics</span>
+        </a>
+        <a class="nav-link" data-section="reorders" title="Smart Reorders">
+          <i data-lucide="shopping-cart"></i>
+          <span class="nav-label">Smart Reorders</span>
+          <span class="nav-badge-pill" id="sidebar-reorder-badge" style="display: none;">PO</span>
+        </a>
+        <a class="nav-link" data-section="ai" title="AI Assistant">
+          <i data-lucide="sparkles"></i>
+          <span class="nav-label">AI Assistant</span>
+        </a>
+        <a class="nav-link" data-section="io" title="Reports & Data">
+          <i data-lucide="file-spreadsheet"></i>
+          <span class="nav-label">Reports & Data</span>
+        </a>
+        <a class="nav-link" data-section="settings" title="Settings">
+          <i data-lucide="sliders"></i>
+          <span class="nav-label">Settings</span>
+        </a>
+      </nav>
+
+      <!-- Bottom Profile & Theme Switcher -->
+      <div class="sidebar-footer">
+        <div class="sidebar-profile-card">
+          <div class="store-avatar" title="Glow & Co. Cosmetics">GC</div>
+          <div class="profile-text">
+            <span class="profile-store-name">Glow & Co. Cosmetics</span>
+            <span class="profile-user-role">Sarah J. &bull; Lead Analyst</span>
+          </div>
+        </div>
+
+        <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Light / Dark Theme">
+          <span id="theme-label">Light Mode</span>
+          <i data-lucide="sun" id="theme-icon"></i>
+        </button>
+
+        <div class="sidebar-storage-badge">
+          <span class="dot"></span>
+          <span>LocalStorage Persistent</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <!-- Main Content Wrapper -->
+    <div class="main-wrapper" id="main-wrapper">
+      
+      <!-- Top Sticky Header -->
+      <header class="app-header">
+        <div class="header-left">
+          <button class="sidebar-toggle" id="sidebar-toggle" title="Open Mobile Navigation">
+            <i data-lucide="menu"></i>
+          </button>
+          <div class="header-title-block">
+            <h2 id="header-greeting">Welcome back, Sarah!</h2>
+            <p id="header-subtitle">Here's your inventory performance overview.</p>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <!-- Global Search -->
+          <div class="header-search-bar">
+            <i data-lucide="search"></i>
+            <input type="text" id="global-search-input" placeholder="Search products, SKUs, suppliers...">
+          </div>
+
+          <!-- Date Badge -->
+          <div class="header-date-badge">
+            <i data-lucide="calendar"></i>
+            <span id="header-live-date">Today</span>
+          </div>
+
+          <!-- Notifications -->
+          <button class="header-icon-btn" id="header-notifications-btn" title="Stock Notifications">
+            <i data-lucide="bell"></i>
+            <span class="header-notification-dot"></span>
+          </button>
+
+          <!-- User Avatar -->
+          <div class="header-avatar" title="Sarah Jenkins - Lead Inventory Analyst">
+            SJ
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Body Container -->
+      <main class="content-body">
+
+        <!-- =================================================================
+             VIEW 1: OVERVIEW (DASHBOARD)
+             ================================================================= -->
+        <section class="app-section active" id="section-dashboard">
+          
+          <!-- Hero Banner -->
+          <div class="dashboard-hero-banner">
+            <div class="hero-content">
+              <span class="hero-pill-badge">
+                <i data-lucide="sparkles" style="width: 14px; height: 14px;"></i> Intelligent Retail Operations
+              </span>
+              <h2 class="hero-headline">Your inventory, under control.</h2>
+              <p class="hero-subtitle">
+                Monitor stock health, understand product demand and make smarter purchasing decisions with deterministic replenishment intelligence.
+              </p>
+              <div class="hero-actions">
+                <button class="btn btn-primary" onclick="document.querySelector('[data-section=\'reorders\']').click()">
+                  <i data-lucide="shopping-cart"></i> Generate Smart PO
+                </button>
+                <button class="btn btn-secondary" onclick="document.querySelector('[data-section=\'ai\']').click()">
+                  <i data-lucide="sparkles"></i> Ask AI Copilot
+                </button>
+                <button class="btn btn-outline" id="btn-open-add-modal">
+                  <i data-lucide="plus-circle"></i> Add Product
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 9 KPI Cards -->
+          <div class="kpi-grid">
+            <!-- 1. Total Products -->
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Total Products</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="box"></i></div>
+              </div>
+              <div class="kpi-value" id="kpi-total-products">16</div>
+              <div class="kpi-meta">Active catalog SKUs</div>
+            </div>
+
+            <!-- 2. Inventory Value -->
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Inventory Value</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="dollar-sign"></i></div>
+              </div>
+              <div class="kpi-value" id="kpi-inventory-value">$0.00</div>
+              <div class="kpi-meta">On-hand retail capital</div>
+            </div>
+
+            <!-- 3. Critical Stock -->
+            <div class="kpi-card accent-red">
+              <div class="kpi-top">
+                <span class="kpi-label">Critical Stock</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="alert-octagon"></i></div>
+              </div>
+              <div class="kpi-value text-danger" id="kpi-critical-stock">0</div>
+              <div class="kpi-meta">Zero stockout (Qty &le; 0)</div>
+            </div>
+
+            <!-- 4. Low Stock -->
+            <div class="kpi-card accent-amber">
+              <div class="kpi-top">
+                <span class="kpi-label">Low Stock (Reorder)</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="alert-triangle"></i></div>
+              </div>
+              <div class="kpi-value text-warning" id="kpi-reorder-stock">0</div>
+              <div class="kpi-meta">At or below Reorder Point</div>
+            </div>
+
+            <!-- 5. Healthy Stock -->
+            <div class="kpi-card accent-green">
+              <div class="kpi-top">
+                <span class="kpi-label">Healthy Stock</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="shield-check"></i></div>
+              </div>
+              <div class="kpi-value text-success" id="kpi-healthy-stock">0</div>
+              <div class="kpi-meta">Operating safely above buffer</div>
+            </div>
+
+            <!-- 6. Fast-Moving Products -->
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Fast-Moving SKUs</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="zap"></i></div>
+              </div>
+              <div class="kpi-value" id="kpi-fast-moving">0</div>
+              <div class="kpi-meta">High turnover velocity (&ge;2.5/d)</div>
+            </div>
+
+            <!-- 7. Slow-Moving Products -->
+            <div class="kpi-card accent-purple">
+              <div class="kpi-top">
+                <span class="kpi-label">Slow-Moving SKUs</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="clock"></i></div>
+              </div>
+              <div class="kpi-value" id="kpi-slow-moving">0</div>
+              <div class="kpi-meta">Sluggish capital (&le;1.2/d)</div>
+            </div>
+
+            <!-- 8. Total Units Sold -->
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Total Units Sold</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="shopping-bag"></i></div>
+              </div>
+              <div class="kpi-value" id="kpi-total-units-sold">0</div>
+              <div class="kpi-meta">30-day cumulative volume</div>
+            </div>
+
+            <!-- 9. Historical Revenue -->
+            <div class="kpi-card accent-green">
+              <div class="kpi-top">
+                <span class="kpi-label">Historical Revenue</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="badge-dollar-sign"></i></div>
+              </div>
+              <div class="kpi-value text-success" id="kpi-total-revenue">$0.00</div>
+              <div class="kpi-meta">Gross historical sales</div>
+            </div>
+          </div>
+
+          <!-- Charts Row 1: Line & Donut -->
+          <div class="dashboard-charts-grid">
+            <div class="chart-card">
+              <div class="chart-header">
+                <div>
+                  <h4>Daily Sales Performance</h4>
+                  <span>Chronological revenue curve across all active SKUs</span>
+                </div>
+                <span class="category-pill">Last 30 Days</span>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chart-sales-trend"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-header">
+                <div>
+                  <h4>Inventory Health Distribution</h4>
+                  <span>Stock health diagnostic classification</span>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chart-stock-health"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category Inventory Bar Chart -->
+          <div class="chart-card chart-card-full" style="margin-bottom: 2.25rem;">
+            <div class="chart-header">
+              <div>
+                <h4>Category-Wise Inventory Valuation</h4>
+                <span>On-hand capital allocation categorized by retail department</span>
+              </div>
+            </div>
+            <div class="chart-wrapper" style="min-height: 270px;">
+              <canvas id="chart-category-inv"></canvas>
+            </div>
+          </div>
+
+          <!-- Bottom Grid: Alerts & Top Sellers -->
+          <div class="dashboard-bottom-grid">
+            <div class="widget-card">
+              <div class="widget-header">
+                <h4><i data-lucide="alert-triangle" class="text-warning"></i> High-Priority Stock Alerts</h4>
+                <span class="text-muted small">Items requiring immediate procurement</span>
+              </div>
+              <div class="alert-items-list" id="dashboard-alerts-list">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+            <div class="widget-card">
+              <div class="widget-header">
+                <h4><i data-lucide="award" class="text-success"></i> Top-Selling Products</h4>
+                <span class="text-muted small">Ranked by volume & revenue</span>
+              </div>
+              <div class="top-products-list" id="top-products-list">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- =================================================================
+             VIEW 2: INVENTORY MANAGEMENT
+             ================================================================= -->
+        <section class="app-section" id="section-inventory">
+          <div class="section-header">
+            <div>
+              <h3>Inventory Management</h3>
+              <p>Manage products, monitor quantities, buffer levels and track suppliers</p>
+            </div>
+            <div class="section-actions">
+              <button class="btn btn-outline" id="btn-export-inv-csv">
+                <i data-lucide="download"></i> Export Inventory CSV
+              </button>
+              <button class="btn btn-primary" onclick="document.getElementById('btn-open-add-modal').click()">
+                <i data-lucide="plus"></i> Add New Product
+              </button>
+            </div>
+          </div>
+
+          <!-- Search & Filter Controls Bar -->
+          <div class="filter-bar">
+            <div class="search-box">
+              <i data-lucide="search"></i>
+              <input type="text" id="inventory-search" placeholder="Search by name, ID, category or supplier...">
+            </div>
+
+            <div class="filter-controls">
+              <select class="select-control" id="category-filter">
+                <option value="all">All Categories</option>
+              </select>
+
+              <select class="select-control" id="status-filter">
+                <option value="all">All Stock Statuses</option>
+                <option value="Healthy">Healthy Stock</option>
+                <option value="Reorder Now">Reorder Now</option>
+                <option value="Critical">Critical (Stockout)</option>
+              </select>
+
+              <select class="select-control" id="sort-select">
+                <option value="id-asc">Sort: ID (Asc)</option>
+                <option value="name-asc">Sort: Name (A-Z)</option>
+                <option value="currentStock-asc">Sort: Stock (Low-High)</option>
+                <option value="currentStock-desc">Sort: Stock (High-Low)</option>
+                <option value="unitPrice-desc">Sort: Price (High-Low)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Product Table -->
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th class="th-sortable" data-sort="id">Product ID ⇕</th>
+                  <th class="th-sortable" data-sort="name">Product Name ⇕</th>
+                  <th class="th-sortable" data-sort="category">Category ⇕</th>
+                  <th class="th-sortable" data-sort="currentStock">Current Stock ⇕</th>
+                  <th class="th-sortable" data-sort="unitPrice">Unit Price ⇕</th>
+                  <th class="th-sortable" data-sort="supplier">Supplier ⇕</th>
+                  <th>Lead Time</th>
+                  <th>Safety Stock</th>
+                  <th>Reorder Point</th>
+                  <th class="th-sortable" data-sort="status">Status ⇕</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="inventory-table-body">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- =================================================================
+             VIEW 3: SALES ANALYTICS
+             ================================================================= -->
+        <section class="app-section" id="section-sales">
+          <div class="section-header">
+            <div>
+              <h3>Sales Analytics & Demand Velocity</h3>
+              <p>Historical demand velocity, revenue breakdowns, and turnover analysis</p>
+            </div>
+            <div class="section-actions">
+              <button class="btn btn-outline" id="btn-export-sales-csv">
+                <i data-lucide="download"></i> Export Sales CSV
+              </button>
+            </div>
+          </div>
+
+          <!-- Sales KPIs -->
+          <div class="kpi-grid">
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Total Units Sold</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="shopping-bag"></i></div>
+              </div>
+              <div class="kpi-value" id="sales-total-units">0</div>
+              <div class="kpi-meta">Cumulative volume</div>
+            </div>
+
+            <div class="kpi-card accent-green">
+              <div class="kpi-top">
+                <span class="kpi-label">Gross Revenue</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="dollar-sign"></i></div>
+              </div>
+              <div class="kpi-value text-success" id="sales-total-revenue">$0.00</div>
+              <div class="kpi-meta">Gross historical sales</div>
+            </div>
+
+            <div class="kpi-card accent-blue">
+              <div class="kpi-top">
+                <span class="kpi-label">Avg Daily Sales</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="activity"></i></div>
+              </div>
+              <div class="kpi-value" id="sales-avg-daily">0</div>
+              <div class="kpi-meta">Units/day across catalog</div>
+            </div>
+
+            <div class="kpi-card accent-purple">
+              <div class="kpi-top">
+                <span class="kpi-label">Avg Order Value</span>
+                <div class="kpi-icon-wrapper"><i data-lucide="receipt"></i></div>
+              </div>
+              <div class="kpi-value" id="sales-avg-order">$0.00</div>
+              <div class="kpi-meta">Average revenue per order</div>
+            </div>
+          </div>
+
+          <!-- Visual Analytics Row -->
+          <div class="dashboard-charts-grid">
+            <div class="chart-card">
+              <div class="chart-header">
+                <div>
+                  <h4>Category Sales Distribution</h4>
+                  <span>Revenue breakdown by department</span>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chart-category-sales"></canvas>
+              </div>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-header">
+                <div>
+                  <h4>Top SKU Daily Velocity</h4>
+                  <span>Daily consumption rate (units / day)</span>
+                </div>
+              </div>
+              <div class="chart-wrapper">
+                <canvas id="chart-sales-velocity"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product Sales Table -->
+          <div class="chart-header" style="margin-top: 1.75rem;">
+            <h4>Product-Wise Performance & Velocity</h4>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Product ID</th>
+                  <th>Product Name</th>
+                  <th>Category</th>
+                  <th>Units Sold</th>
+                  <th>Total Revenue</th>
+                  <th>Daily Velocity</th>
+                  <th>Velocity Category</th>
+                </tr>
+              </thead>
+              <tbody id="sales-table-body">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- =================================================================
+             VIEW 4: SMART REORDERS
+             ================================================================= -->
+        <section class="app-section" id="section-reorders">
+          <div class="section-header">
+            <div>
+              <h3>Smart Reorder Intelligence</h3>
+              <p>Know what to purchase, when to purchase and how much stock you need based on deterministic demand modeling</p>
+            </div>
+            <div class="section-actions">
+              <button class="btn btn-primary" id="btn-export-reorder-csv">
+                <i data-lucide="download"></i> Export Reorder PO (CSV)
+              </button>
+            </div>
+          </div>
+
+          <!-- Target Coverage Horizon Control Bar -->
+          <div class="reorder-controls-bar">
+            <div class="slider-group">
+              <label for="target-coverage-input">Target Coverage Horizon:</label>
+              <input type="range" id="target-coverage-input" min="5" max="30" step="1" value="10">
+              <span class="slider-val-badge" id="target-coverage-val">10 days</span>
+            </div>
+
+            <div class="reorder-summary-stats">
+              <div class="reorder-stat-pill">
+                <span>SKUs Requiring PO</span>
+                <strong id="reorder-items-count">0</strong>
+              </div>
+              <div class="reorder-stat-pill">
+                <span>Total Units to Order</span>
+                <strong id="reorder-total-units">0</strong>
+              </div>
+              <div class="reorder-stat-pill">
+                <span>Estimated Capital Needed</span>
+                <strong id="reorder-total-cost" class="text-primary">$0.00</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reorder Table -->
+          <div class="table-responsive">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Product & Supplier</th>
+                  <th>Current Stock</th>
+                  <th>Avg Daily Sales</th>
+                  <th>Lead Time</th>
+                  <th>Safety Stock</th>
+                  <th>Reorder Point</th>
+                  <th>Target Stock</th>
+                  <th>Suggested Order</th>
+                  <th>Est. Cost</th>
+                  <th>Priority</th>
+                </tr>
+              </thead>
+              <tbody id="reorder-table-body">
+                <!-- Injected via JavaScript -->
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Supplier PO Batches -->
+          <div class="chart-header" style="margin-top: 2.25rem;">
+            <h4>Consolidated Supplier Purchase Orders</h4>
+            <span>Batched orders grouped by supplier lead times to optimize shipping costs</span>
+          </div>
+          <div class="supplier-summary-grid" id="supplier-summary-container">
+            <!-- Injected via JavaScript -->
+          </div>
+        </section>
+
+        <!-- =================================================================
+             VIEW 5: AI INVENTORY ASSISTANT
+             ================================================================= -->
+        <section class="app-section" id="section-ai">
+          <div class="section-header">
+            <div>
+              <h3>AI Inventory Assistant</h3>
+              <p>Natural-language inventory intelligence, risk explanations, and procurement reasoning</p>
+            </div>
+            <div class="section-actions">
+              <button class="btn btn-outline btn-sm" id="btn-clear-ai-chat">
+                <i data-lucide="trash-2"></i> Clear Chat
+              </button>
+            </div>
+          </div>
+
+          <div class="ai-container">
+            <!-- AI Header -->
+            <div class="ai-header-bar">
+              <div class="ai-header-info">
+                <div class="ai-avatar-icon">
+                  <i data-lucide="bot" style="width: 22px; height: 22px;"></i>
+                </div>
+                <div>
+                  <h4>StockWise AI Copilot</h4>
+                  <p>Reliable deterministic rule-based assistant & optional Gemini backend proxy</p>
+                </div>
+              </div>
+              <span class="ai-badge" id="ai-status-badge">Offline Local Engine</span>
+            </div>
+
+            <!-- Suggested Prompt Cards -->
+            <div class="ai-chips-bar">
+              <button class="ai-chip" data-prompt="Which products should I reorder today?">
+                🎯 Which products should I reorder today?
+              </button>
+              <button class="ai-chip" data-prompt="Which products have stockout risk?">
+                ⚠️ Which products have stockout risk?
+              </button>
+              <button class="ai-chip" data-prompt="Show my fastest-moving products.">
+                🚀 Show my fastest-moving products.
+              </button>
+              <button class="ai-chip" data-prompt="Identify slow-moving products.">
+                🐢 Identify slow-moving products.
+              </button>
+              <button class="ai-chip" data-prompt="Give me today's inventory summary.">
+                📋 Give me today's inventory summary.
+              </button>
+            </div>
+
+            <!-- Chat Stream -->
+            <div class="ai-chat-messages" id="ai-chat-messages">
+              <!-- Initial message injected via JS -->
+            </div>
+
+            <!-- Input Bar -->
+            <div class="ai-input-bar">
+              <input type="text" id="ai-chat-input" placeholder="Ask about any product, stockout risk, or reorder recommendation (e.g. 'What should I order from GlowCare Labs?')...">
+              <button class="btn btn-primary" id="ai-send-btn">
+                <i data-lucide="send"></i> Ask AI
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- =================================================================
+             VIEW 6: REPORTS & DATA IMPORT / EXPORT
+             ================================================================= -->
+        <section class="app-section" id="section-io">
+          <div class="section-header">
+            <div>
+              <h3>Reports & Data Center</h3>
+              <p>Seamlessly backup, export, and import your inventory and sales records via CSV and Excel</p>
+            </div>
+          </div>
+
+          <div class="io-grid">
+            <!-- Export Excel (.xlsx) -->
+            <div class="io-card">
+              <h4><i data-lucide="file-spreadsheet" class="text-success"></i> Download Excel Workbook</h4>
+              <p>Generates a multi-sheet Microsoft Excel (.xlsx) workbook containing Inventory, Sales Transactions, and Reorder Recommendations via SheetJS.</p>
+              <div class="io-actions">
+                <button class="btn btn-primary" id="btn-export-excel">
+                  <i data-lucide="download"></i> Download .xlsx Workbook
+                </button>
+              </div>
+            </div>
+
+            <!-- Export Inventory CSV -->
+            <div class="io-card">
+              <h4><i data-lucide="file-text" class="text-primary"></i> Export Inventory (CSV)</h4>
+              <p>Export all 16+ products including current stock, supplier information, lead times, safety stocks and unit prices into standard CSV.</p>
+              <div class="io-actions">
+                <button class="btn btn-outline" onclick="document.getElementById('btn-export-inv-csv').click()">
+                  <i data-lucide="download"></i> Download Inventory CSV
+                </button>
+              </div>
+            </div>
+
+            <!-- Export Sales CSV -->
+            <div class="io-card">
+              <h4><i data-lucide="file-text" class="text-primary"></i> Export Sales History (CSV)</h4>
+              <p>Export all historical sales transactions with product IDs, dates, units sold, and revenues into standard CSV.</p>
+              <div class="io-actions">
+                <button class="btn btn-outline" onclick="document.getElementById('btn-export-sales-csv').click()">
+                  <i data-lucide="download"></i> Download Sales CSV
+                </button>
+              </div>
+            </div>
+
+            <!-- Import Inventory CSV -->
+            <div class="io-card">
+              <h4><i data-lucide="upload-cloud" class="text-warning"></i> Import Inventory CSV</h4>
+              <p>Upload a custom inventory CSV. Validates product IDs, names, stocks, and pricing with safe confirmation before updating.</p>
+              <div class="io-dropzone" onclick="document.getElementById('file-input-inv').click()">
+                <i data-lucide="file-up" style="width: 32px; height: 32px; color: var(--primary); margin-bottom: 0.5rem;"></i>
+                <p><strong>Click to browse</strong> or drag and drop inventory CSV here</p>
+                <span class="small text-muted">Supports .csv files formatted with product ID, Name, Stock, Price</span>
+              </div>
+              <input type="file" id="file-input-inv" accept=".csv" style="display: none;">
+              <div class="io-actions">
+                <button class="btn btn-outline btn-sm" id="btn-import-inv-csv">
+                  <i data-lucide="upload"></i> Select File
+                </button>
+                <button class="btn btn-sm btn-outline" id="btn-download-sample-inv">
+                  Sample Template
+                </button>
+              </div>
+            </div>
+
+            <!-- Import Sales CSV -->
+            <div class="io-card">
+              <h4><i data-lucide="upload-cloud" class="text-warning"></i> Import Sales CSV</h4>
+              <p>Upload sales transaction logs to calculate new velocity metrics and demand patterns dynamically.</p>
+              <div class="io-dropzone" onclick="document.getElementById('file-input-sales').click()">
+                <i data-lucide="file-up" style="width: 32px; height: 32px; color: var(--secondary); margin-bottom: 0.5rem;"></i>
+                <p><strong>Click to browse</strong> or drag and drop sales CSV here</p>
+                <span class="small text-muted">Supports transaction logs with date, product ID, and units sold</span>
+              </div>
+              <input type="file" id="file-input-sales" accept=".csv" style="display: none;">
+              <div class="io-actions">
+                <button class="btn btn-outline btn-sm" id="btn-import-sales-csv">
+                  <i data-lucide="upload"></i> Select File
+                </button>
+                <button class="btn btn-sm btn-outline" id="btn-download-sample-sales">
+                  Sample Template
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- =================================================================
+             VIEW 7: SETTINGS
+             ================================================================= -->
+        <section class="app-section" id="section-settings">
+          <div class="section-header">
+            <div>
+              <h3>System Settings & Preferences</h3>
+              <p>Configure store profile, reorder parameters, appearance, and backend connectivity</p>
+            </div>
+          </div>
+
+          <div class="settings-container">
+            <!-- Notice Box -->
+            <div class="settings-notice-box">
+              <strong><i data-lucide="info"></i> Browser LocalStorage Scope Notice</strong>
+              StockWise AI stores inventory data, sales transaction records, and user preferences locally in your browser's private LocalStorage sandbox. Data persists across browser refreshes and remains private to this workstation.
+            </div>
+
+            <!-- Section: Appearance & Themes -->
+            <div class="settings-section-card">
+              <div class="settings-section-header">
+                <h4><i data-lucide="palette"></i> Appearance & Themes</h4>
+                <p>Choose your preferred interface theme</p>
+              </div>
+              <div class="form-group">
+                <label for="setting-theme-select">Interface Theme</label>
+                <select id="setting-theme-select" class="form-control">
+                  <option value="dark">Dark Mode (#101828 - Obsidian Navy)</option>
+                  <option value="light">Light Mode (#F8FAFC - Clean Slate)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Section: Store Profile -->
+            <div class="settings-section-card">
+              <div class="settings-section-header">
+                <h4><i data-lucide="store"></i> Store Profile</h4>
+                <p>Retail brand and operational settings</p>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="setting-store-name">Store Name</label>
+                  <input type="text" id="setting-store-name" class="form-control" value="Glow & Co. Cosmetics">
+                </div>
+                <div class="form-group">
+                  <label for="setting-currency">Currency Symbol</label>
+                  <input type="text" id="setting-currency" class="form-control" value="USD ($)" readonly>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section: Reorder Parameters -->
+            <div class="settings-section-card">
+              <div class="settings-section-header">
+                <h4><i data-lucide="calculator"></i> Reorder Engine Parameters</h4>
+                <p>Default calculation horizons for procurement modeling</p>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="setting-target-days">Default Target Coverage Days</label>
+                  <input type="number" id="setting-target-days" class="form-control" min="3" max="60" value="10">
+                  <span class="form-hint">Number of days of inventory buffer to order for (Formula 3).</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="setting-analysis-days">Sales Analysis Horizon (Days)</label>
+                  <input type="number" id="setting-analysis-days" class="form-control" min="7" max="90" value="30">
+                  <span class="form-hint">Time horizon used to calculate Average Daily Sales velocity (Formula 1).</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section: AI Configuration (Collapsible) -->
+            <div class="settings-section-card">
+              <div class="settings-section-header" style="cursor: pointer;" onclick="document.getElementById('ai-settings-collapse').classList.toggle('active')">
+                <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+                  <h4><i data-lucide="sparkles"></i> AI Backend Configuration (Optional)</h4>
+                  <i data-lucide="chevron-down"></i>
+                </div>
+                <p>Configure a secure server-side proxy endpoint for Google Gemini API</p>
+              </div>
+              <div id="ai-settings-collapse">
+                <div class="form-group">
+                  <label for="setting-backend-url">Gemini AI Backend Proxy URL</label>
+                  <input type="url" id="setting-backend-url" class="form-control" placeholder="http://localhost:8000/api/gemini-assistant">
+                  <span class="form-hint"><strong>Security Standard:</strong> In strict compliance with security protocols, Gemini API keys are NEVER embedded in client frontend code. When a backend server (such as <code>server.py</code>) is active, requests are routed securely server-side. If left blank, the deterministic local rule-based AI runs automatically.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Section: Data Management -->
+            <div class="settings-section-card">
+              <div class="settings-section-header">
+                <h4><i data-lucide="database"></i> Data Management</h4>
+                <p>Backup or restore sample catalog data</p>
+              </div>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <button class="btn btn-primary" id="btn-save-settings">
+                  <i data-lucide="save"></i> Save Settings
+                </button>
+                <button class="btn btn-danger" id="btn-reset-data">
+                  <i data-lucide="refresh-cw"></i> Reset Factory Sample Data
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       MODAL: ADD / EDIT PRODUCT
+       ================================================================= -->
+  <div class="modal-backdrop" id="product-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h4 id="product-modal-title">Add New Product</h4>
+        <button class="btn-icon" id="btn-cancel-product-modal" title="Close"><i data-lucide="x"></i></button>
+      </div>
+      <form id="product-form">
+        <input type="hidden" id="product-form-is-edit" value="false">
+        <div class="modal-body">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="prod-id">Product ID *</label>
+              <input type="text" id="prod-id" class="form-control" placeholder="e.g. PRD-017" required>
+            </div>
+            <div class="form-group">
+              <label for="prod-category">Category *</label>
+              <input type="text" id="prod-category" class="form-control" placeholder="e.g. Personal Care" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="prod-name">Product Name *</label>
+            <input type="text" id="prod-name" class="form-control" placeholder="e.g. Mineral Sunscreen SPF 50" required>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="prod-stock">Current Stock *</label>
+              <input type="number" id="prod-stock" class="form-control" min="0" value="10" required>
+            </div>
+            <div class="form-group">
+              <label for="prod-price">Unit Price ($) *</label>
+              <input type="number" id="prod-price" class="form-control" min="0.01" step="0.01" value="19.99" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="prod-supplier">Supplier *</label>
+            <input type="text" id="prod-supplier" class="form-control" placeholder="e.g. GlowCare Labs" required>
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="prod-lead-time">Lead Time (Days) *</label>
+              <input type="number" id="prod-lead-time" class="form-control" min="1" value="5" required>
+            </div>
+            <div class="form-group">
+              <label for="prod-safety-stock">Safety Stock (Units) *</label>
+              <input type="number" id="prod-safety-stock" class="form-control" min="0" value="5" required>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline" onclick="document.getElementById('product-modal').classList.remove('active')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Product</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       MODAL: CONFIRMATION DIALOG
+       ================================================================= -->
+  <div class="modal-backdrop" id="confirm-modal">
+    <div class="modal-dialog" style="max-width: 450px;">
+      <div class="modal-header">
+        <h4 id="confirm-modal-title">Confirm Action</h4>
+        <button class="btn-icon" id="btn-cancel-confirm" title="Close"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <p id="confirm-modal-message">Are you sure you want to proceed?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="document.getElementById('confirm-modal').classList.remove('active')">Cancel</button>
+        <button class="btn btn-danger" id="btn-confirm-action">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Application Modules -->
+  <script src="js/storage.js"></script>
+  <script src="js/reorder.js"></script>
+  <script src="js/inventory.js"></script>
+  <script src="js/sales.js"></script>
+  <script src="js/ai.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

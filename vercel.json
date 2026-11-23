@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/web-version/index.html"
+    },
+    {
+      "source": "/css/:path*",
+      "destination": "/web-version/css/:path*"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "/web-version/js/:path*"
+    },
+    {
+      "source": "/data/:path*",
+      "destination": "/web-version/data/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/web-version/:path*"
+    }
+  ]
+}

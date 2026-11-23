@@ -1,0 +1,4092 @@
+[
+  {
+    "transactionId": "TXN-1001",
+    "date": "2026-10-25",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 18.5,
+    "totalRevenue": 74.0
+  },
+  {
+    "transactionId": "TXN-1030",
+    "date": "2026-10-25",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 49.99,
+    "totalRevenue": 99.98
+  },
+  {
+    "transactionId": "TXN-1060",
+    "date": "2026-10-25",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1086",
+    "date": "2026-10-25",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 9.99,
+    "totalRevenue": 39.96
+  },
+  {
+    "transactionId": "TXN-1116",
+    "date": "2026-10-25",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1144",
+    "date": "2026-10-25",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1170",
+    "date": "2026-10-25",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 19.99,
+    "totalRevenue": 39.98
+  },
+  {
+    "transactionId": "TXN-1198",
+    "date": "2026-10-25",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1224",
+    "date": "2026-10-25",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1266",
+    "date": "2026-10-25",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1295",
+    "date": "2026-10-25",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1311",
+    "date": "2026-10-25",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 27.5,
+    "totalRevenue": 82.5
+  },
+  {
+    "transactionId": "TXN-1331",
+    "date": "2026-10-25",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1358",
+    "date": "2026-10-25",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1383",
+    "date": "2026-10-25",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1002",
+    "date": "2026-10-26",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1031",
+    "date": "2026-10-26",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1061",
+    "date": "2026-10-26",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1087",
+    "date": "2026-10-26",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 9.99,
+    "totalRevenue": 79.92
+  },
+  {
+    "transactionId": "TXN-1117",
+    "date": "2026-10-26",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 22.0,
+    "totalRevenue": 88.0
+  },
+  {
+    "transactionId": "TXN-1145",
+    "date": "2026-10-26",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1171",
+    "date": "2026-10-26",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 4,
+    "unitPrice": 19.99,
+    "totalRevenue": 79.96
+  },
+  {
+    "transactionId": "TXN-1199",
+    "date": "2026-10-26",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1267",
+    "date": "2026-10-26",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 3,
+    "unitPrice": 16.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1332",
+    "date": "2026-10-26",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1359",
+    "date": "2026-10-26",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1003",
+    "date": "2026-10-27",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 6,
+    "unitPrice": 18.5,
+    "totalRevenue": 111.0
+  },
+  {
+    "transactionId": "TXN-1032",
+    "date": "2026-10-27",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 49.99,
+    "totalRevenue": 199.96
+  },
+  {
+    "transactionId": "TXN-1062",
+    "date": "2026-10-27",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1088",
+    "date": "2026-10-27",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 9.99,
+    "totalRevenue": 59.94
+  },
+  {
+    "transactionId": "TXN-1118",
+    "date": "2026-10-27",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 7,
+    "unitPrice": 22.0,
+    "totalRevenue": 154.0
+  },
+  {
+    "transactionId": "TXN-1146",
+    "date": "2026-10-27",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1172",
+    "date": "2026-10-27",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1200",
+    "date": "2026-10-27",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1225",
+    "date": "2026-10-27",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1246",
+    "date": "2026-10-27",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1268",
+    "date": "2026-10-27",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1312",
+    "date": "2026-10-27",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1333",
+    "date": "2026-10-27",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1360",
+    "date": "2026-10-27",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1384",
+    "date": "2026-10-27",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1004",
+    "date": "2026-10-28",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 6,
+    "unitPrice": 18.5,
+    "totalRevenue": 111.0
+  },
+  {
+    "transactionId": "TXN-1033",
+    "date": "2026-10-28",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1063",
+    "date": "2026-10-28",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1089",
+    "date": "2026-10-28",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 9.99,
+    "totalRevenue": 59.94
+  },
+  {
+    "transactionId": "TXN-1119",
+    "date": "2026-10-28",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1147",
+    "date": "2026-10-28",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1173",
+    "date": "2026-10-28",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 19.99,
+    "totalRevenue": 59.97
+  },
+  {
+    "transactionId": "TXN-1201",
+    "date": "2026-10-28",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1226",
+    "date": "2026-10-28",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1269",
+    "date": "2026-10-28",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1334",
+    "date": "2026-10-28",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1361",
+    "date": "2026-10-28",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1005",
+    "date": "2026-10-29",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1034",
+    "date": "2026-10-29",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 49.99,
+    "totalRevenue": 199.96
+  },
+  {
+    "transactionId": "TXN-1064",
+    "date": "2026-10-29",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1090",
+    "date": "2026-10-29",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 9.99,
+    "totalRevenue": 29.97
+  },
+  {
+    "transactionId": "TXN-1120",
+    "date": "2026-10-29",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1148",
+    "date": "2026-10-29",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1174",
+    "date": "2026-10-29",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 4,
+    "unitPrice": 19.99,
+    "totalRevenue": 79.96
+  },
+  {
+    "transactionId": "TXN-1227",
+    "date": "2026-10-29",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1247",
+    "date": "2026-10-29",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1270",
+    "date": "2026-10-29",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 5,
+    "unitPrice": 16.0,
+    "totalRevenue": 80.0
+  },
+  {
+    "transactionId": "TXN-1313",
+    "date": "2026-10-29",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1335",
+    "date": "2026-10-29",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1385",
+    "date": "2026-10-29",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 11.5,
+    "totalRevenue": 11.5
+  },
+  {
+    "transactionId": "TXN-1006",
+    "date": "2026-10-30",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 18.5,
+    "totalRevenue": 18.5
+  },
+  {
+    "transactionId": "TXN-1035",
+    "date": "2026-10-30",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1065",
+    "date": "2026-10-30",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1091",
+    "date": "2026-10-30",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 9.99,
+    "totalRevenue": 29.97
+  },
+  {
+    "transactionId": "TXN-1121",
+    "date": "2026-10-30",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1149",
+    "date": "2026-10-30",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1175",
+    "date": "2026-10-30",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 4,
+    "unitPrice": 19.99,
+    "totalRevenue": 79.96
+  },
+  {
+    "transactionId": "TXN-1202",
+    "date": "2026-10-30",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1228",
+    "date": "2026-10-30",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1248",
+    "date": "2026-10-30",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1271",
+    "date": "2026-10-30",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1314",
+    "date": "2026-10-30",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1336",
+    "date": "2026-10-30",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1386",
+    "date": "2026-10-30",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1007",
+    "date": "2026-10-31",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 18.5,
+    "totalRevenue": 74.0
+  },
+  {
+    "transactionId": "TXN-1036",
+    "date": "2026-10-31",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1066",
+    "date": "2026-10-31",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1092",
+    "date": "2026-10-31",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 9,
+    "unitPrice": 9.99,
+    "totalRevenue": 89.91
+  },
+  {
+    "transactionId": "TXN-1122",
+    "date": "2026-10-31",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1150",
+    "date": "2026-10-31",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1176",
+    "date": "2026-10-31",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 19.99,
+    "totalRevenue": 39.98
+  },
+  {
+    "transactionId": "TXN-1203",
+    "date": "2026-10-31",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1229",
+    "date": "2026-10-31",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 59.99,
+    "totalRevenue": 179.97
+  },
+  {
+    "transactionId": "TXN-1249",
+    "date": "2026-10-31",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1272",
+    "date": "2026-10-31",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 3,
+    "unitPrice": 16.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1337",
+    "date": "2026-10-31",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1362",
+    "date": "2026-10-31",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1387",
+    "date": "2026-10-31",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1008",
+    "date": "2026-11-01",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 6,
+    "unitPrice": 18.5,
+    "totalRevenue": 111.0
+  },
+  {
+    "transactionId": "TXN-1037",
+    "date": "2026-11-01",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1067",
+    "date": "2026-11-01",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1093",
+    "date": "2026-11-01",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 10,
+    "unitPrice": 9.99,
+    "totalRevenue": 99.9
+  },
+  {
+    "transactionId": "TXN-1123",
+    "date": "2026-11-01",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 22.0,
+    "totalRevenue": 88.0
+  },
+  {
+    "transactionId": "TXN-1177",
+    "date": "2026-11-01",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 5,
+    "unitPrice": 19.99,
+    "totalRevenue": 99.95
+  },
+  {
+    "transactionId": "TXN-1204",
+    "date": "2026-11-01",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1250",
+    "date": "2026-11-01",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1273",
+    "date": "2026-11-01",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 8,
+    "unitPrice": 16.0,
+    "totalRevenue": 128.0
+  },
+  {
+    "transactionId": "TXN-1296",
+    "date": "2026-11-01",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1315",
+    "date": "2026-11-01",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1338",
+    "date": "2026-11-01",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1363",
+    "date": "2026-11-01",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1388",
+    "date": "2026-11-01",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 4,
+    "unitPrice": 11.5,
+    "totalRevenue": 46.0
+  },
+  {
+    "transactionId": "TXN-1009",
+    "date": "2026-11-02",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 18.5,
+    "totalRevenue": 74.0
+  },
+  {
+    "transactionId": "TXN-1038",
+    "date": "2026-11-02",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 49.99,
+    "totalRevenue": 399.92
+  },
+  {
+    "transactionId": "TXN-1068",
+    "date": "2026-11-02",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1094",
+    "date": "2026-11-02",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 9.99,
+    "totalRevenue": 29.97
+  },
+  {
+    "transactionId": "TXN-1124",
+    "date": "2026-11-02",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 22.0,
+    "totalRevenue": 66.0
+  },
+  {
+    "transactionId": "TXN-1151",
+    "date": "2026-11-02",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 6,
+    "unitPrice": 24.5,
+    "totalRevenue": 147.0
+  },
+  {
+    "transactionId": "TXN-1178",
+    "date": "2026-11-02",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1205",
+    "date": "2026-11-02",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 5,
+    "unitPrice": 34.0,
+    "totalRevenue": 170.0
+  },
+  {
+    "transactionId": "TXN-1274",
+    "date": "2026-11-02",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1316",
+    "date": "2026-11-02",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1339",
+    "date": "2026-11-02",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 24.0,
+    "totalRevenue": 96.0
+  },
+  {
+    "transactionId": "TXN-1389",
+    "date": "2026-11-02",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 6,
+    "unitPrice": 11.5,
+    "totalRevenue": 69.0
+  },
+  {
+    "transactionId": "TXN-1010",
+    "date": "2026-11-03",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1039",
+    "date": "2026-11-03",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 49.99,
+    "totalRevenue": 49.99
+  },
+  {
+    "transactionId": "TXN-1069",
+    "date": "2026-11-03",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1095",
+    "date": "2026-11-03",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 9.99,
+    "totalRevenue": 29.97
+  },
+  {
+    "transactionId": "TXN-1125",
+    "date": "2026-11-03",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1152",
+    "date": "2026-11-03",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 4,
+    "unitPrice": 24.5,
+    "totalRevenue": 98.0
+  },
+  {
+    "transactionId": "TXN-1179",
+    "date": "2026-11-03",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 19.99,
+    "totalRevenue": 39.98
+  },
+  {
+    "transactionId": "TXN-1230",
+    "date": "2026-11-03",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 59.99,
+    "totalRevenue": 359.94
+  },
+  {
+    "transactionId": "TXN-1251",
+    "date": "2026-11-03",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1275",
+    "date": "2026-11-03",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 1,
+    "unitPrice": 16.0,
+    "totalRevenue": 16.0
+  },
+  {
+    "transactionId": "TXN-1297",
+    "date": "2026-11-03",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1340",
+    "date": "2026-11-03",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1364",
+    "date": "2026-11-03",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1011",
+    "date": "2026-11-04",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1040",
+    "date": "2026-11-04",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 49.99,
+    "totalRevenue": 199.96
+  },
+  {
+    "transactionId": "TXN-1070",
+    "date": "2026-11-04",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1096",
+    "date": "2026-11-04",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 9.99,
+    "totalRevenue": 29.97
+  },
+  {
+    "transactionId": "TXN-1126",
+    "date": "2026-11-04",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 22.0,
+    "totalRevenue": 88.0
+  },
+  {
+    "transactionId": "TXN-1153",
+    "date": "2026-11-04",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1180",
+    "date": "2026-11-04",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1206",
+    "date": "2026-11-04",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1231",
+    "date": "2026-11-04",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 59.99,
+    "totalRevenue": 179.97
+  },
+  {
+    "transactionId": "TXN-1252",
+    "date": "2026-11-04",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1276",
+    "date": "2026-11-04",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1317",
+    "date": "2026-11-04",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1341",
+    "date": "2026-11-04",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1365",
+    "date": "2026-11-04",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1390",
+    "date": "2026-11-04",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 4,
+    "unitPrice": 11.5,
+    "totalRevenue": 46.0
+  },
+  {
+    "transactionId": "TXN-1012",
+    "date": "2026-11-05",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1041",
+    "date": "2026-11-05",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 49.99,
+    "totalRevenue": 199.96
+  },
+  {
+    "transactionId": "TXN-1071",
+    "date": "2026-11-05",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1097",
+    "date": "2026-11-05",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 9.99,
+    "totalRevenue": 19.98
+  },
+  {
+    "transactionId": "TXN-1127",
+    "date": "2026-11-05",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1181",
+    "date": "2026-11-05",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 5,
+    "unitPrice": 19.99,
+    "totalRevenue": 99.95
+  },
+  {
+    "transactionId": "TXN-1207",
+    "date": "2026-11-05",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1232",
+    "date": "2026-11-05",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1298",
+    "date": "2026-11-05",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1342",
+    "date": "2026-11-05",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1366",
+    "date": "2026-11-05",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1391",
+    "date": "2026-11-05",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 11.5,
+    "totalRevenue": 11.5
+  },
+  {
+    "transactionId": "TXN-1013",
+    "date": "2026-11-06",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1042",
+    "date": "2026-11-06",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 7,
+    "unitPrice": 49.99,
+    "totalRevenue": 349.93
+  },
+  {
+    "transactionId": "TXN-1098",
+    "date": "2026-11-06",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1128",
+    "date": "2026-11-06",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1182",
+    "date": "2026-11-06",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1208",
+    "date": "2026-11-06",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1233",
+    "date": "2026-11-06",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 59.99,
+    "totalRevenue": 179.97
+  },
+  {
+    "transactionId": "TXN-1277",
+    "date": "2026-11-06",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1299",
+    "date": "2026-11-06",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1318",
+    "date": "2026-11-06",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 27.5,
+    "totalRevenue": 82.5
+  },
+  {
+    "transactionId": "TXN-1343",
+    "date": "2026-11-06",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1367",
+    "date": "2026-11-06",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1392",
+    "date": "2026-11-06",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 11.5,
+    "totalRevenue": 11.5
+  },
+  {
+    "transactionId": "TXN-1014",
+    "date": "2026-11-07",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1043",
+    "date": "2026-11-07",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1099",
+    "date": "2026-11-07",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 9.99,
+    "totalRevenue": 79.92
+  },
+  {
+    "transactionId": "TXN-1129",
+    "date": "2026-11-07",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1154",
+    "date": "2026-11-07",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1183",
+    "date": "2026-11-07",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 5,
+    "unitPrice": 19.99,
+    "totalRevenue": 99.95
+  },
+  {
+    "transactionId": "TXN-1209",
+    "date": "2026-11-07",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1234",
+    "date": "2026-11-07",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 59.99,
+    "totalRevenue": 179.97
+  },
+  {
+    "transactionId": "TXN-1253",
+    "date": "2026-11-07",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1278",
+    "date": "2026-11-07",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 7,
+    "unitPrice": 16.0,
+    "totalRevenue": 112.0
+  },
+  {
+    "transactionId": "TXN-1300",
+    "date": "2026-11-07",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1319",
+    "date": "2026-11-07",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 27.5,
+    "totalRevenue": 55.0
+  },
+  {
+    "transactionId": "TXN-1344",
+    "date": "2026-11-07",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1368",
+    "date": "2026-11-07",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1393",
+    "date": "2026-11-07",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1015",
+    "date": "2026-11-08",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1044",
+    "date": "2026-11-08",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1100",
+    "date": "2026-11-08",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 7,
+    "unitPrice": 9.99,
+    "totalRevenue": 69.93
+  },
+  {
+    "transactionId": "TXN-1130",
+    "date": "2026-11-08",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 22.0,
+    "totalRevenue": 44.0
+  },
+  {
+    "transactionId": "TXN-1155",
+    "date": "2026-11-08",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1184",
+    "date": "2026-11-08",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 19.99,
+    "totalRevenue": 39.98
+  },
+  {
+    "transactionId": "TXN-1254",
+    "date": "2026-11-08",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 14.5,
+    "totalRevenue": 43.5
+  },
+  {
+    "transactionId": "TXN-1279",
+    "date": "2026-11-08",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 9,
+    "unitPrice": 16.0,
+    "totalRevenue": 144.0
+  },
+  {
+    "transactionId": "TXN-1320",
+    "date": "2026-11-08",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1345",
+    "date": "2026-11-08",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1394",
+    "date": "2026-11-08",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 4,
+    "unitPrice": 11.5,
+    "totalRevenue": 46.0
+  },
+  {
+    "transactionId": "TXN-1045",
+    "date": "2026-11-09",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 49.99,
+    "totalRevenue": 99.98
+  },
+  {
+    "transactionId": "TXN-1072",
+    "date": "2026-11-09",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1101",
+    "date": "2026-11-09",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 9.99,
+    "totalRevenue": 59.94
+  },
+  {
+    "transactionId": "TXN-1131",
+    "date": "2026-11-09",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1156",
+    "date": "2026-11-09",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1185",
+    "date": "2026-11-09",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1255",
+    "date": "2026-11-09",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1280",
+    "date": "2026-11-09",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1301",
+    "date": "2026-11-09",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1321",
+    "date": "2026-11-09",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 27.5,
+    "totalRevenue": 55.0
+  },
+  {
+    "transactionId": "TXN-1346",
+    "date": "2026-11-09",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1369",
+    "date": "2026-11-09",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1395",
+    "date": "2026-11-09",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 5,
+    "unitPrice": 11.5,
+    "totalRevenue": 57.5
+  },
+  {
+    "transactionId": "TXN-1016",
+    "date": "2026-11-10",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 18.5,
+    "totalRevenue": 18.5
+  },
+  {
+    "transactionId": "TXN-1046",
+    "date": "2026-11-10",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 49.99,
+    "totalRevenue": 99.98
+  },
+  {
+    "transactionId": "TXN-1073",
+    "date": "2026-11-10",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 5,
+    "unitPrice": 12.0,
+    "totalRevenue": 60.0
+  },
+  {
+    "transactionId": "TXN-1102",
+    "date": "2026-11-10",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 9.99,
+    "totalRevenue": 19.98
+  },
+  {
+    "transactionId": "TXN-1132",
+    "date": "2026-11-10",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 5,
+    "unitPrice": 22.0,
+    "totalRevenue": 110.0
+  },
+  {
+    "transactionId": "TXN-1157",
+    "date": "2026-11-10",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1210",
+    "date": "2026-11-10",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1235",
+    "date": "2026-11-10",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1256",
+    "date": "2026-11-10",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1281",
+    "date": "2026-11-10",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1370",
+    "date": "2026-11-10",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1396",
+    "date": "2026-11-10",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1017",
+    "date": "2026-11-11",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 5,
+    "unitPrice": 18.5,
+    "totalRevenue": 92.5
+  },
+  {
+    "transactionId": "TXN-1047",
+    "date": "2026-11-11",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 49.99,
+    "totalRevenue": 299.94
+  },
+  {
+    "transactionId": "TXN-1074",
+    "date": "2026-11-11",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1103",
+    "date": "2026-11-11",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 9.99,
+    "totalRevenue": 79.92
+  },
+  {
+    "transactionId": "TXN-1133",
+    "date": "2026-11-11",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1158",
+    "date": "2026-11-11",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1186",
+    "date": "2026-11-11",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 5,
+    "unitPrice": 19.99,
+    "totalRevenue": 99.95
+  },
+  {
+    "transactionId": "TXN-1211",
+    "date": "2026-11-11",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1236",
+    "date": "2026-11-11",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 59.99,
+    "totalRevenue": 119.98
+  },
+  {
+    "transactionId": "TXN-1282",
+    "date": "2026-11-11",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 5,
+    "unitPrice": 16.0,
+    "totalRevenue": 80.0
+  },
+  {
+    "transactionId": "TXN-1302",
+    "date": "2026-11-11",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1322",
+    "date": "2026-11-11",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1347",
+    "date": "2026-11-11",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1371",
+    "date": "2026-11-11",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1397",
+    "date": "2026-11-11",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1018",
+    "date": "2026-11-12",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1048",
+    "date": "2026-11-12",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1075",
+    "date": "2026-11-12",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1104",
+    "date": "2026-11-12",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1134",
+    "date": "2026-11-12",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 6,
+    "unitPrice": 22.0,
+    "totalRevenue": 132.0
+  },
+  {
+    "transactionId": "TXN-1187",
+    "date": "2026-11-12",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1212",
+    "date": "2026-11-12",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1237",
+    "date": "2026-11-12",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1257",
+    "date": "2026-11-12",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1283",
+    "date": "2026-11-12",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1303",
+    "date": "2026-11-12",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1323",
+    "date": "2026-11-12",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 27.5,
+    "totalRevenue": 55.0
+  },
+  {
+    "transactionId": "TXN-1348",
+    "date": "2026-11-12",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1372",
+    "date": "2026-11-12",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1398",
+    "date": "2026-11-12",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1019",
+    "date": "2026-11-13",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1049",
+    "date": "2026-11-13",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1076",
+    "date": "2026-11-13",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1105",
+    "date": "2026-11-13",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 9.99,
+    "totalRevenue": 9.99
+  },
+  {
+    "transactionId": "TXN-1135",
+    "date": "2026-11-13",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 22.0,
+    "totalRevenue": 88.0
+  },
+  {
+    "transactionId": "TXN-1159",
+    "date": "2026-11-13",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1188",
+    "date": "2026-11-13",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1213",
+    "date": "2026-11-13",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1238",
+    "date": "2026-11-13",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 59.99,
+    "totalRevenue": 119.98
+  },
+  {
+    "transactionId": "TXN-1258",
+    "date": "2026-11-13",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1284",
+    "date": "2026-11-13",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 3,
+    "unitPrice": 16.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1304",
+    "date": "2026-11-13",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1324",
+    "date": "2026-11-13",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1349",
+    "date": "2026-11-13",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 24.0,
+    "totalRevenue": 72.0
+  },
+  {
+    "transactionId": "TXN-1373",
+    "date": "2026-11-13",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1399",
+    "date": "2026-11-13",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1020",
+    "date": "2026-11-14",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1050",
+    "date": "2026-11-14",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 49.99,
+    "totalRevenue": 399.92
+  },
+  {
+    "transactionId": "TXN-1077",
+    "date": "2026-11-14",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1106",
+    "date": "2026-11-14",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1136",
+    "date": "2026-11-14",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1160",
+    "date": "2026-11-14",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 4,
+    "unitPrice": 24.5,
+    "totalRevenue": 98.0
+  },
+  {
+    "transactionId": "TXN-1214",
+    "date": "2026-11-14",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1259",
+    "date": "2026-11-14",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 14.5,
+    "totalRevenue": 29.0
+  },
+  {
+    "transactionId": "TXN-1285",
+    "date": "2026-11-14",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1325",
+    "date": "2026-11-14",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1350",
+    "date": "2026-11-14",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1374",
+    "date": "2026-11-14",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1400",
+    "date": "2026-11-14",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1021",
+    "date": "2026-11-15",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1051",
+    "date": "2026-11-15",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 49.99,
+    "totalRevenue": 299.94
+  },
+  {
+    "transactionId": "TXN-1078",
+    "date": "2026-11-15",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1107",
+    "date": "2026-11-15",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1137",
+    "date": "2026-11-15",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 22.0,
+    "totalRevenue": 88.0
+  },
+  {
+    "transactionId": "TXN-1161",
+    "date": "2026-11-15",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1189",
+    "date": "2026-11-15",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 19.99,
+    "totalRevenue": 59.97
+  },
+  {
+    "transactionId": "TXN-1215",
+    "date": "2026-11-15",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1239",
+    "date": "2026-11-15",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 59.99,
+    "totalRevenue": 359.94
+  },
+  {
+    "transactionId": "TXN-1260",
+    "date": "2026-11-15",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 14.5,
+    "totalRevenue": 58.0
+  },
+  {
+    "transactionId": "TXN-1286",
+    "date": "2026-11-15",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 1,
+    "unitPrice": 16.0,
+    "totalRevenue": 16.0
+  },
+  {
+    "transactionId": "TXN-1326",
+    "date": "2026-11-15",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 27.5,
+    "totalRevenue": 82.5
+  },
+  {
+    "transactionId": "TXN-1351",
+    "date": "2026-11-15",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1375",
+    "date": "2026-11-15",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1401",
+    "date": "2026-11-15",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 11.5,
+    "totalRevenue": 11.5
+  },
+  {
+    "transactionId": "TXN-1022",
+    "date": "2026-11-16",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 18.5,
+    "totalRevenue": 74.0
+  },
+  {
+    "transactionId": "TXN-1052",
+    "date": "2026-11-16",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1108",
+    "date": "2026-11-16",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1138",
+    "date": "2026-11-16",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1162",
+    "date": "2026-11-16",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1190",
+    "date": "2026-11-16",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 19.99,
+    "totalRevenue": 59.97
+  },
+  {
+    "transactionId": "TXN-1216",
+    "date": "2026-11-16",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1240",
+    "date": "2026-11-16",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1287",
+    "date": "2026-11-16",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 8,
+    "unitPrice": 16.0,
+    "totalRevenue": 128.0
+  },
+  {
+    "transactionId": "TXN-1352",
+    "date": "2026-11-16",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1376",
+    "date": "2026-11-16",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1402",
+    "date": "2026-11-16",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 4,
+    "unitPrice": 11.5,
+    "totalRevenue": 46.0
+  },
+  {
+    "transactionId": "TXN-1023",
+    "date": "2026-11-17",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 18.5,
+    "totalRevenue": 74.0
+  },
+  {
+    "transactionId": "TXN-1053",
+    "date": "2026-11-17",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1079",
+    "date": "2026-11-17",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1109",
+    "date": "2026-11-17",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 6,
+    "unitPrice": 9.99,
+    "totalRevenue": 59.94
+  },
+  {
+    "transactionId": "TXN-1139",
+    "date": "2026-11-17",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1163",
+    "date": "2026-11-17",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1191",
+    "date": "2026-11-17",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 19.99,
+    "totalRevenue": 59.97
+  },
+  {
+    "transactionId": "TXN-1217",
+    "date": "2026-11-17",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 34.0,
+    "totalRevenue": 102.0
+  },
+  {
+    "transactionId": "TXN-1241",
+    "date": "2026-11-17",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 59.99,
+    "totalRevenue": 179.97
+  },
+  {
+    "transactionId": "TXN-1261",
+    "date": "2026-11-17",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1288",
+    "date": "2026-11-17",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1305",
+    "date": "2026-11-17",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1327",
+    "date": "2026-11-17",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1353",
+    "date": "2026-11-17",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 24.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1403",
+    "date": "2026-11-17",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1024",
+    "date": "2026-11-18",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1054",
+    "date": "2026-11-18",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1080",
+    "date": "2026-11-18",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 5,
+    "unitPrice": 12.0,
+    "totalRevenue": 60.0
+  },
+  {
+    "transactionId": "TXN-1110",
+    "date": "2026-11-18",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 9.99,
+    "totalRevenue": 19.98
+  },
+  {
+    "transactionId": "TXN-1140",
+    "date": "2026-11-18",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 22.0,
+    "totalRevenue": 22.0
+  },
+  {
+    "transactionId": "TXN-1164",
+    "date": "2026-11-18",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1192",
+    "date": "2026-11-18",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 19.99,
+    "totalRevenue": 19.99
+  },
+  {
+    "transactionId": "TXN-1218",
+    "date": "2026-11-18",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1262",
+    "date": "2026-11-18",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1289",
+    "date": "2026-11-18",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 9,
+    "unitPrice": 16.0,
+    "totalRevenue": 144.0
+  },
+  {
+    "transactionId": "TXN-1306",
+    "date": "2026-11-18",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1354",
+    "date": "2026-11-18",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 6,
+    "unitPrice": 24.0,
+    "totalRevenue": 144.0
+  },
+  {
+    "transactionId": "TXN-1377",
+    "date": "2026-11-18",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1404",
+    "date": "2026-11-18",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1025",
+    "date": "2026-11-19",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 18.5,
+    "totalRevenue": 55.5
+  },
+  {
+    "transactionId": "TXN-1055",
+    "date": "2026-11-19",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 49.99,
+    "totalRevenue": 99.98
+  },
+  {
+    "transactionId": "TXN-1081",
+    "date": "2026-11-19",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 1,
+    "unitPrice": 12.0,
+    "totalRevenue": 12.0
+  },
+  {
+    "transactionId": "TXN-1111",
+    "date": "2026-11-19",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 7,
+    "unitPrice": 9.99,
+    "totalRevenue": 69.93
+  },
+  {
+    "transactionId": "TXN-1165",
+    "date": "2026-11-19",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 24.5,
+    "totalRevenue": 24.5
+  },
+  {
+    "transactionId": "TXN-1193",
+    "date": "2026-11-19",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 8,
+    "unitPrice": 19.99,
+    "totalRevenue": 159.92
+  },
+  {
+    "transactionId": "TXN-1219",
+    "date": "2026-11-19",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1263",
+    "date": "2026-11-19",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 14.5,
+    "totalRevenue": 58.0
+  },
+  {
+    "transactionId": "TXN-1290",
+    "date": "2026-11-19",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1307",
+    "date": "2026-11-19",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1328",
+    "date": "2026-11-19",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1378",
+    "date": "2026-11-19",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 39.99,
+    "totalRevenue": 119.97
+  },
+  {
+    "transactionId": "TXN-1405",
+    "date": "2026-11-19",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1026",
+    "date": "2026-11-20",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 18.5,
+    "totalRevenue": 18.5
+  },
+  {
+    "transactionId": "TXN-1056",
+    "date": "2026-11-20",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 49.99,
+    "totalRevenue": 149.97
+  },
+  {
+    "transactionId": "TXN-1082",
+    "date": "2026-11-20",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 12.0,
+    "totalRevenue": 36.0
+  },
+  {
+    "transactionId": "TXN-1112",
+    "date": "2026-11-20",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 9.99,
+    "totalRevenue": 9.99
+  },
+  {
+    "transactionId": "TXN-1166",
+    "date": "2026-11-20",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1194",
+    "date": "2026-11-20",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 19.99,
+    "totalRevenue": 59.97
+  },
+  {
+    "transactionId": "TXN-1220",
+    "date": "2026-11-20",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1242",
+    "date": "2026-11-20",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1264",
+    "date": "2026-11-20",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1291",
+    "date": "2026-11-20",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1308",
+    "date": "2026-11-20",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 129.99,
+    "totalRevenue": 129.99
+  },
+  {
+    "transactionId": "TXN-1329",
+    "date": "2026-11-20",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 27.5,
+    "totalRevenue": 27.5
+  },
+  {
+    "transactionId": "TXN-1355",
+    "date": "2026-11-20",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 4,
+    "unitPrice": 24.0,
+    "totalRevenue": 96.0
+  },
+  {
+    "transactionId": "TXN-1379",
+    "date": "2026-11-20",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1406",
+    "date": "2026-11-20",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1027",
+    "date": "2026-11-21",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 5,
+    "unitPrice": 18.5,
+    "totalRevenue": 92.5
+  },
+  {
+    "transactionId": "TXN-1057",
+    "date": "2026-11-21",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 49.99,
+    "totalRevenue": 99.98
+  },
+  {
+    "transactionId": "TXN-1083",
+    "date": "2026-11-21",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1113",
+    "date": "2026-11-21",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 8,
+    "unitPrice": 9.99,
+    "totalRevenue": 79.92
+  },
+  {
+    "transactionId": "TXN-1141",
+    "date": "2026-11-21",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 22.0,
+    "totalRevenue": 66.0
+  },
+  {
+    "transactionId": "TXN-1167",
+    "date": "2026-11-21",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1195",
+    "date": "2026-11-21",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 7,
+    "unitPrice": 19.99,
+    "totalRevenue": 139.93
+  },
+  {
+    "transactionId": "TXN-1221",
+    "date": "2026-11-21",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1243",
+    "date": "2026-11-21",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1292",
+    "date": "2026-11-21",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 4,
+    "unitPrice": 16.0,
+    "totalRevenue": 64.0
+  },
+  {
+    "transactionId": "TXN-1309",
+    "date": "2026-11-21",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 129.99,
+    "totalRevenue": 259.98
+  },
+  {
+    "transactionId": "TXN-1356",
+    "date": "2026-11-21",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1380",
+    "date": "2026-11-21",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1407",
+    "date": "2026-11-21",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  },
+  {
+    "transactionId": "TXN-1028",
+    "date": "2026-11-22",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 2,
+    "unitPrice": 18.5,
+    "totalRevenue": 37.0
+  },
+  {
+    "transactionId": "TXN-1058",
+    "date": "2026-11-22",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 49.99,
+    "totalRevenue": 249.95
+  },
+  {
+    "transactionId": "TXN-1084",
+    "date": "2026-11-22",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 12.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1114",
+    "date": "2026-11-22",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 9.99,
+    "totalRevenue": 39.96
+  },
+  {
+    "transactionId": "TXN-1142",
+    "date": "2026-11-22",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 3,
+    "unitPrice": 22.0,
+    "totalRevenue": 66.0
+  },
+  {
+    "transactionId": "TXN-1168",
+    "date": "2026-11-22",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 3,
+    "unitPrice": 24.5,
+    "totalRevenue": 73.5
+  },
+  {
+    "transactionId": "TXN-1196",
+    "date": "2026-11-22",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 6,
+    "unitPrice": 19.99,
+    "totalRevenue": 119.94
+  },
+  {
+    "transactionId": "TXN-1222",
+    "date": "2026-11-22",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 34.0,
+    "totalRevenue": 68.0
+  },
+  {
+    "transactionId": "TXN-1244",
+    "date": "2026-11-22",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 59.99,
+    "totalRevenue": 119.98
+  },
+  {
+    "transactionId": "TXN-1265",
+    "date": "2026-11-22",
+    "productId": "PRD-010",
+    "productName": "Lavender Essential Oil (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 14.5,
+    "totalRevenue": 14.5
+  },
+  {
+    "transactionId": "TXN-1293",
+    "date": "2026-11-22",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 8,
+    "unitPrice": 16.0,
+    "totalRevenue": 128.0
+  },
+  {
+    "transactionId": "TXN-1310",
+    "date": "2026-11-22",
+    "productId": "PRD-012",
+    "productName": "Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "unitsSold": 3,
+    "unitPrice": 129.99,
+    "totalRevenue": 389.97
+  },
+  {
+    "transactionId": "TXN-1357",
+    "date": "2026-11-22",
+    "productId": "PRD-014",
+    "productName": "Vitamin C Serum (30ml)",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 24.0,
+    "totalRevenue": 24.0
+  },
+  {
+    "transactionId": "TXN-1381",
+    "date": "2026-11-22",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 39.99,
+    "totalRevenue": 39.99
+  },
+  {
+    "transactionId": "TXN-1408",
+    "date": "2026-11-22",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 3,
+    "unitPrice": 11.5,
+    "totalRevenue": 34.5
+  },
+  {
+    "transactionId": "TXN-1029",
+    "date": "2026-11-23",
+    "productId": "PRD-001",
+    "productName": "Sunscreen SPF 50",
+    "category": "Personal Care",
+    "unitsSold": 1,
+    "unitPrice": 18.5,
+    "totalRevenue": 18.5
+  },
+  {
+    "transactionId": "TXN-1059",
+    "date": "2026-11-23",
+    "productId": "PRD-002",
+    "productName": "Wireless Bluetooth Earbuds",
+    "category": "Electronics",
+    "unitsSold": 4,
+    "unitPrice": 49.99,
+    "totalRevenue": 199.96
+  },
+  {
+    "transactionId": "TXN-1085",
+    "date": "2026-11-23",
+    "productId": "PRD-003",
+    "productName": "Organic Green Tea (100 bags)",
+    "category": "Groceries",
+    "unitsSold": 4,
+    "unitPrice": 12.0,
+    "totalRevenue": 48.0
+  },
+  {
+    "transactionId": "TXN-1115",
+    "date": "2026-11-23",
+    "productId": "PRD-004",
+    "productName": "USB-C Fast Charging Cable",
+    "category": "Electronics",
+    "unitsSold": 5,
+    "unitPrice": 9.99,
+    "totalRevenue": 49.95
+  },
+  {
+    "transactionId": "TXN-1143",
+    "date": "2026-11-23",
+    "productId": "PRD-005",
+    "productName": "Hydrating Facial Cleanser",
+    "category": "Personal Care",
+    "unitsSold": 5,
+    "unitPrice": 22.0,
+    "totalRevenue": 110.0
+  },
+  {
+    "transactionId": "TXN-1169",
+    "date": "2026-11-23",
+    "productId": "PRD-006",
+    "productName": "Ceramic Coffee Mug Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 24.5,
+    "totalRevenue": 49.0
+  },
+  {
+    "transactionId": "TXN-1197",
+    "date": "2026-11-23",
+    "productId": "PRD-007",
+    "productName": "Stainless Steel Water Bottle (1L)",
+    "category": "Home & Kitchen",
+    "unitsSold": 6,
+    "unitPrice": 19.99,
+    "totalRevenue": 119.94
+  },
+  {
+    "transactionId": "TXN-1223",
+    "date": "2026-11-23",
+    "productId": "PRD-008",
+    "productName": "Ergonomic Memory Foam Pillow",
+    "category": "Home & Kitchen",
+    "unitsSold": 1,
+    "unitPrice": 34.0,
+    "totalRevenue": 34.0
+  },
+  {
+    "transactionId": "TXN-1245",
+    "date": "2026-11-23",
+    "productId": "PRD-009",
+    "productName": "Smart Fitness Tracker",
+    "category": "Electronics",
+    "unitsSold": 1,
+    "unitPrice": 59.99,
+    "totalRevenue": 59.99
+  },
+  {
+    "transactionId": "TXN-1294",
+    "date": "2026-11-23",
+    "productId": "PRD-011",
+    "productName": "Cotton Crewneck T-Shirt",
+    "category": "Apparel",
+    "unitsSold": 2,
+    "unitPrice": 16.0,
+    "totalRevenue": 32.0
+  },
+  {
+    "transactionId": "TXN-1330",
+    "date": "2026-11-23",
+    "productId": "PRD-013",
+    "productName": "Bamboo Cutting Board Set",
+    "category": "Home & Kitchen",
+    "unitsSold": 2,
+    "unitPrice": 27.5,
+    "totalRevenue": 55.0
+  },
+  {
+    "transactionId": "TXN-1382",
+    "date": "2026-11-23",
+    "productId": "PRD-015",
+    "productName": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "unitsSold": 2,
+    "unitPrice": 39.99,
+    "totalRevenue": 79.98
+  },
+  {
+    "transactionId": "TXN-1409",
+    "date": "2026-11-23",
+    "productId": "PRD-016",
+    "productName": "Organic Wildflower Honey (500g)",
+    "category": "Groceries",
+    "unitsSold": 2,
+    "unitPrice": 11.5,
+    "totalRevenue": 23.0
+  }
+]
